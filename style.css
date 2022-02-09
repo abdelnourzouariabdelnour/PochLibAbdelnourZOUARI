@@ -1,0 +1,229 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap");
+.form-group {
+  display: block;
+}
+
+.form-group .form-control {
+  width: 99.2%;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+/*Page d'accueil:  */
+/* Poch'Lib */
+body #myBooks h1 {
+  padding-top: 1%;
+  text-align: center;
+  border: 3px #eeeded;
+  height: 40px;
+  line-height: 30px;
+  font-weight: normal;
+  font-family: "Source Code Pro", monospace;
+  background-color: #eff0f4;
+  -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Séparateur */
+body #myBooks hr {
+  background-color: black;
+  border: none;
+  height: 1px;
+  margin-top: 2%;
+  margin-bottom: -1%;
+}
+
+/*nouveau livre*/
+body #myBooks .h2 {
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* bouton ajouter un livre   */
+.addButton {
+  display: inline-block;
+  padding: 10px 24px;
+  outline: none;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  color: white;
+  width: 200px;
+  height: 40px;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'STIX Two Text', serif;
+  font-weight: normal;
+  background-color: #2a2dd6;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+/* rendre transparant au passage de la souris          */
+.addButton:hover {
+  opacity: 0.9;
+}
+
+/*ma poch'liste*/
+#content .h3 {
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bolder;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/*bouton rechercher*/
+.searchButton {
+  display: inline-block;
+  padding: 10px 24px;
+  outline: none;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  color: white;
+  width: 200px;
+  height: 40px;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'STIX Two Text', serif;
+  font-weight: normal;
+  background-color: #30ca1c;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 100%;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  opacity: 0.9;
+}
+
+/*bouton annuler*/
+.cancelButton {
+  display: inline-block;
+  padding: 10px 24px;
+  outline: none;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  color: white;
+  width: 200px;
+  height: 40px;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'STIX Two Text', serif;
+  font-weight: normal;
+  background-color: #e72a08;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 100%;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+  opacity: 0.9;
+}
+
+/*données du livre */
+.card {
+  width: 40vw;
+  background-color: #0a7b83;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: center;
+}
+
+.card-container .card-title {
+  display: block;
+  -webkit-margin-before: 3em;
+          margin-block-start: 3em;
+  -webkit-margin-after: 1.33em;
+          margin-block-end: 1.33em;
+  font-weight: bold;
+}
+
+.card-container .card-id {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-container .card-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.card-container .card-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-container .card-img {
+  display: block;
+  margin: auto;
+  height: auto;
+  max-width: 30%;
+}
+
+.addBookmarkButton {
+  background-color: #2a2dd6;
+  float: right;
+  width: 70px;
+  height: 28px;
+  font-size: 10px;
+}
+
+.removeButton {
+  background-color: #FF0000;
+  float: right;
+  color: #000000;
+  width: 70px;
+  height: 28px;
+  font-size: 10px;
+}
+/*# sourceMappingURL=style.css.map */

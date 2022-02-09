@@ -1,0 +1,204 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap");
+.form-group {
+  display: block;
+}
+
+.form-group .form-control {
+  width: 99.2%;
+  height: 30px;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  
+}
+
+ /*Page d'accueil:  */
+
+
+/* Poch'Lib */
+body #myBooks h1 {
+  padding-top: 1%;
+  text-align: center;
+  border: 3px #eeeded;
+  height: 40px;
+  line-height: 30px;
+  font-weight: normal;
+  font-family: "Source Code Pro", monospace;
+  background-color: #eff0f4;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Séparateur */
+body #myBooks hr {background-color:black; border:none; height:1px; margin-top: 2%; margin-bottom: -1%;}
+ 
+
+/*nouveau livre*/
+body #myBooks .h2 {
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+ 
+}
+
+/* bouton ajouter un livre   */
+.addButton {
+  display: inline-block;
+  padding: 10px 24px;
+  outline: none;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  color: white;
+  width: 200px;
+  height: 40px;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'STIX Two Text', serif;
+  font-weight: normal;
+  background-color: #2a2dd6;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+/* rendre transparant au passage de la souris          */
+.addButton:hover {
+  opacity: 0.9;
+}
+
+
+  /*ma poch'liste*/
+  #content .h3 {
+    
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bolder;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  
+  
+    }
+
+
+/*bouton rechercher*/
+.searchButton {
+  display: inline-block;
+  padding: 10px 24px;
+  outline: none;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  color: white;
+  width: 200px;
+  height: 40px;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'STIX Two Text', serif;
+  font-weight: normal;
+  background-color: #30ca1c;
+  justify-content: center;
+  display: flex;
+  margin-right: 100%;
+  cursor: pointer;
+}
+.searchButton:hover {
+  opacity: 0.9;
+}
+
+/*bouton annuler*/
+.cancelButton {
+  display: inline-block;
+  padding: 10px 24px;
+  outline: none;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  color: white;
+  width: 200px;
+  height: 40px;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'STIX Two Text', serif;
+  font-weight: normal;
+  background-color: #e72a08;
+  justify-content: center;
+  display: flex;
+  margin-right: 100%;
+  cursor: pointer;
+}
+.cancelButton:hover {
+  opacity: 0.9;
+}
+
+
+
+/*données du livre */
+.card {
+  width: 40vw;
+  background-color: #d1cece;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+}
+
+.card-container .card-title {
+  display: block;
+  margin-block-start: 3em;
+  margin-block-end: 1.33em;
+  font-weight: bold;
+
+}
+
+.card-container .card-id {
+  display: flex;
+}
+
+
+.card-container .card-author {
+  display: flex;
+  margin: auto;
+}
+.card-container .card-description {
+  display: flex;
+}
+.card-container .card-img {
+  display: block;
+  margin: auto;
+  height: auto;
+  max-width: 30%;
+  
+}
+
+
+.addBookmarkButton{
+  background-color: #61e708;
+  float: right;
+  width: 70px;
+  height: 28px;
+  font-size: 10px;
+}
+
+.removeButton{
+background-color:#FF0000 ;
+float: right;
+color:#000000 ;
+width: 70px;
+height: 28px;
+font-size: 10px;
+
+}
